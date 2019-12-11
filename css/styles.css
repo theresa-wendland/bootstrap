@@ -1,0 +1,209 @@
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    color: #0C7B7F;
+}
+
+header h2 {
+    color: white;
+    font-size: 19px;
+}
+
+.site-footer {
+  
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+    background-color: #1C4A3A;
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #015045;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-inner{
+     height: 600px;
+ }
+ 
+
+
+
+
+
+
+
+/*Product page*/
+
+
+ #product {
+  padding: 80px 0;
+}
+
+#product .sneakers {
+  max-width: 500px;
+  margin: 0 auto;
+/*   text-align: center; */
+}
+
+#product .product-title {
+
+}
+
+#product .product-price {
+/*   text-align: center; */
+  margin: 0 auto;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#product .available-colors .color {
+  border-radius: 50%;
+  margin-top: 10px;
+  max-width: 70px;
+  margin-right: 20px;
+  
+}
+
+#product .dropdown {
+  margin-top: 30px;
+}
+
+#product .size {
+  margin-right: -155px;
+}
+
+#product .quantity {
+  
+}
+
+#product .btn.btn-primary {
+  margin-top: 10px;
+}
+
+/* 
+@media (max-width: 991px) {
+  #product .sneakers {
+    max-width: 400px;
+  }
+}
+ */
+
+@media screen and (max-width:575px) {
+  .mobile-menu input~nav>ul>li>a {
+    font-size: 18px;
+  }
+}
+
+.dropdown-item {
+  background-color: #fff;
+}
+
+.dropdown-menu.show {
+  background-color: #fff;
+  padding: 0;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #f8f8f8;
+  color: #212529;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.footer {
+  background: #015045;
+  color: white;
+}
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: white;
+  transition: color 0.2s;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180CB;
+}
+.footer .about-company i {
+  font-size: 25px;
+}
+.footer .about-company a {
+  color: white;
+  transition: color 0.2s;
+}
+.footer .about-company a:hover {
+  color: #4180CB;
+}
+.footer .location i {
+  font-size: 18px;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+/*star rating*/
+
+.checked {
+  color: orange;
+}
+
+
+
+.parallax { 
+  background-image: url("http://s1.picswalls.com/wallpapers/2015/09/20/2015-wallpaper_111525594_269.jpg"); 
+  min-height: 500px;  
+  background-attachment: fixed; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+} 
+
+
+
+
